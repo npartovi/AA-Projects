@@ -58,7 +58,7 @@ def population_in_millions
       countries
     WHERE
       continent = 'South America'
-  SQL
+  SQL 
 end
 
 def name_and_population
