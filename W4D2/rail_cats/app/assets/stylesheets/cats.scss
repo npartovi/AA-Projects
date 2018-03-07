@@ -1,0 +1,80 @@
+// Place all the styles related to the Cats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+h1 {
+    color: #f1c40f;
+    background-color: #3498db;
+    text-align: center;
+    font-size: 90px;
+}
+
+body {
+  background-color: #e74c3c
+}
+
+td {
+    font-size: 20px;
+}
+
+#show_cat_button {
+  background-color: #3498db; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 28px;
+}
+
+#create_cat_button {
+  background-color: #8e44ad; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+button#cat_homepage_button {
+  background-color: #3498db; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 28px;
+}
+
+button#edit_cat_button {
+  background-color: #3498db; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 28px;
+}
+
+tr#banner {
+    color: #f1c40f;
+    background-color: #3498db;
+}
+
+a {
+    color: white;
+}
+
+tr#banner td {
+    font-size: 30px;
+}

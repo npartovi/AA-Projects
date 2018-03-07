@@ -1,0 +1,7 @@
+<h2> All of the cats </h2>
+
+<button id="create_cat_button" type="button"><%= link_to "Create a new Cat", new_cat_url %></button>
+
+<% @cats.each do |cat| %>
+  <%= render 'cat', cat: cat, action: :index %>
+<% end %>

@@ -1,0 +1,33 @@
+
+
+<table>
+
+  <tr id="banner">
+    <td>Name: <%= cat.name %></td>
+  </tr>
+
+  <tr>
+    <td>Birthdate: <%= cat.birth_date %></td>
+  </tr>
+
+  <tr>
+    <td>Sex: <%= cat.sex %></td>
+  </tr>
+
+  <tr>
+    <td>Color: <%= cat.color %></td>
+  </tr>
+
+  <tr>
+    <td>Description: <%= cat.description %></td>
+  </tr>
+
+  <tr>
+  <% if action == :show %>
+    <td><button id="cat_homepage_button" type="button"><%= link_to 'Cat Homepage', cats_url %></button></td>
+    <td><button id="edit_cat_button" type="button"><%= link_to 'Edit Cat', edit_cat_url %></button></td>
+  <% else %>
+    <td><button id="show_cat_button" type="button"><%= link_to 'Show Cat', cat_url(cat) %></button></td>
+  <% end %>
+  <tr>
+</table>
