@@ -6,7 +6,7 @@
   <% button_text = "update user" %>
 <% end %>
 
-<form class="" action="<%= action_url %>" method="post">
+<form class="" action="<% action_url %>" method="post">
   <%if type == :edit%>
     <input type = "hidden" method = "_method" value="PATCH">
   <%end%>
@@ -19,6 +19,6 @@
  <label for="user_password">Password</label>
  <input id="user_password" type="password" name="user[password]" value=""/>
 
- <input type="submit" value="<%= button_text %>"/>
+ <input type="submit" value="<% button_text %>"/>
 
 </form>

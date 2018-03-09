@@ -1,0 +1,10 @@
+<h1>User show page</h1>
+
+<div id="user_show">
+<p> Email: <%= @user.email %><p>
+</div>
+
+<form action="<%= session_url %>" method= "post">
+	<%= auth_token %>
+	<input type="hidden" name="_method" value="DELETE">
+</form>

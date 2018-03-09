@@ -1,0 +1,13 @@
+<h1> Check out all these cool bands</h1>
+
+
+
+<div id="bands_index">
+<%= link_to 'Create a new band', new_band_url, id: 'new_band' %>
+
+	<div id="band_list">
+		<% @bands.each do |band| %>
+			<p><%= band.name %></p>
+		<% end %>
+	</div>
+</div>

@@ -1,0 +1,67 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body {
+	background-image: url('/assets/musicdemo.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+form label {
+	color: white;
+
+}
+
+div#sign_in_link {
+    text-align: center;
+    margin-top: 67px;
+    font-size: 25px;
+    font-color: white;
+}
+
+a#sign_in {
+    color: white;
+}
+
+div#sign_up {
+    text-align: center;
+}
+
+div#user_show {
+    color: white;
+    text-align: center;
+    font-size: 31px;
+    margin-bottom: 25px;
+}
+
+.user-detail p {
+    color: white;
+}
+
+nav {
+    background-color: #fd79a8;
+    display: flex;
+    font-size: 25px;
+}
+
+div#bands_index {
+    color: white;
+    text-align: center;
+}
+
+div#band_list {
+    font-size: 30px;
+}
+
+

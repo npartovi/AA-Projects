@@ -1,0 +1,12 @@
+<h1> Sign Up!</h1>
+
+
+<div id="sign_up_form">
+	<%= render 'form', user: @user, type: :new %>
+</div>
+
+
+<div id="sign_in_link">
+	<h1> Already a Member?</h1>
+	<%= link_to 'Sign in', new_session_url, :id => "sign_in" %>
+</div>
