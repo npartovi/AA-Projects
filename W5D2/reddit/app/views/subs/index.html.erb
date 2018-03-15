@@ -1,0 +1,13 @@
+<h1 id="index_header">Welcome to Reddit!</h1>
+
+<%= link_to 'Create Sub', new_sub_url,{class: 'btn green'} %>
+<br>
+<br>
+
+
+
+<ul id="index-list">
+<% @subs.each do |s| %>
+<li><%= link_to s.title, sub_url(s) %></li>
+<% end %>
+<ul>

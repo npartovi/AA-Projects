@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reddit</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+  </head>
+
+  <body>
+
+  <nav>
+    <div id="nav_header">
+      <% if logged_in? %>
+        <p> Logged in:  <strong id="username"><%= current_user.username %></strong><p>
+        <%= button_to 'Sign Out', session_url, method: :delete, class: 'btn signin'  %>
+      <% else %>
+        <%= link_to 'Sign In', new_session_url, {class: 'btn signin'} %>
+        <%= link_to 'Sign Up', new_user_url, {class: 'btn signup'} %>
+      <% end %>
+    </div>
+  </nav>
+
+  <div class="body_change">
+    <%= yield %>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+<h2>
+<%= link_to 'Home Page', subs_url, class: 'btn green' %>
+</h2>
+
+<div class="title-show-header">
+<h1 id="show-title"><%= @sub.title %></h1>
+<h2 id="description"><%= @sub.description %></h2>
+</div>
+
+<br>
+<br>
+
+<%= link_to 'Make New Post!', new_sub_post_url(@sub), class: 'btn green' %>
+
+
+<ul id="post-show-list">
+<% @sub.posts.each do |post| %>
+  <li><%= link_to post.title, post_url(post) %></li>
+<% end %>
+</ul>

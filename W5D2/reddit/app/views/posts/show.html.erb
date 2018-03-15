@@ -1,0 +1,12 @@
+<h1>POST SHOW PAGE</h1>
+
+<%= link_to 'Sub Home Page', subs_url, class: 'btn green' %>
+
+<div class='container'>
+  <ul id='post-content'>
+    <li>Title: <%= @post.title %></li>
+    <li>URL: <%= @post.url %></li>
+    <li>Content: <%= @post.content %></li>
+
+  </ul>
+</div>

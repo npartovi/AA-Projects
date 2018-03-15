@@ -1,0 +1,26 @@
+<h1>Add Post</h1>
+
+
+<div class=container>
+  <form action="<%= sub_posts_url(@post.sub) %>" method="post">
+
+    <%= auth_token %>
+
+
+    <label>Title
+      <input type="text" name="post[title]">
+    </label>
+    <br>
+    <label>URL
+      <input type="text" name="post[url]">
+    </label>
+  <br>
+    <label>Content
+      <textarea name="post[content]"></textarea>
+    </label>
+
+    <br>
+    <input type="submit" value="Add Post">
+
+  </form>
+</div>
