@@ -1,0 +1,27 @@
+/* PHASE 3: Layout */
+.content {
+  margin: 0 auto;
+  width: 900px;
+  background: white;
+  min-height: 200px;
+  position:relative;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  position:relative;
+}
+
+.content-sidebar {
+  border-right: 1px solid #ccc;
+  float:left;
+  min-height: 200px;
+  width:200px;
+  padding: 20px;
+}
+
+.content-main {
+  float: left;
+  min-height: 200px;
+  width:620px;
+  padding: 19px;
+}

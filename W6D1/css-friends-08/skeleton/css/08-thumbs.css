@@ -1,0 +1,7 @@
+/* PHASE 8: Thumbs */
+
+ul.profile-friends.group li {
+    float: left;
+    width: 60px;
+    margin: 3px;
+}
