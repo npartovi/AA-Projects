@@ -1,0 +1,48 @@
+.main_nav {
+	background: #6441a4;
+	display:flex;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.logo svg {
+    fill: white;
+}
+
+a.logo {
+    padding: 10px;
+}
+
+.nav-links {
+    margin-top: 18px;
+}
+
+.nav-links a {
+	color: #d3cae8;
+	padding: 0 1.5rem;
+	text-decoration: none;
+}
+
+.nav-links a:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+.nav-links a {
+    color: #d3cae8;
+    padding: 0 1.5rem;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+input.search-bar {
+    width: 300px;
+}
+
+.nav-search {
+    position: relative;
+}
+
+svg#search-icon {
+    position: absolute;
+}
+

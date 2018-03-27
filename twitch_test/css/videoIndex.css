@@ -1,0 +1,16 @@
+.thumbnail-list {
+    display: flex;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.thumbnail img {
+	width: 180px;
+	height: 248px;
+}
+
+.thumbnail {
+    margin: 10px;
+}
+
